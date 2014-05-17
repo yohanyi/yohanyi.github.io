@@ -1,51 +1,105 @@
 body {
-	margin:0;
-	padding:0;
-	font-size: 12px;
-	font-family:"Times New Roman";
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#243743;
+	width:750px;
+	color: #243743;
 }
 
+.main {
+	width: 100%;
+	margin: 5px;
+	border:3px solid #FAFAFA;
+	background-color:#28B78D;
+}
 #header {
-	background-color:##81DAF5;
-	color:#000000;
-	padding: 25px;
+	padding: 5px;
 	text-align:center;
-	border: 5px solid #000000;
-	width:100%;
-	height:15%;
+	border-bottom: 3px solid #FAFAFA;
+	width: auto;
+	height:100px;
+	background-color: #8A949B;
 }
 
-#content {
-	float:right;
-	margin: 10px;
-	width:600px;
+h1{
+	font-size:33px;
+}
+h2 {
+	font-size: 27px;
 	text-align:center;
+}
+
+.alignleft {
+	text-align:left;
+}
+#content {
+	width:600px;
+	float:right;
+	height:auto;
+	text-align:left;
+
+
+}
+
+#content li {
+	text-align:left;
+	font-size: 18px;
+	padding-bottom: 10px;
+
 }
 
 #picture {
-
+	position: relative;
+	bottom:0px;
+	left:0px;
+	
 }
 
-.caption {
-	position: absolute;
-	background:black;
-	color:white;
-	padding: 10px;
-	border: 3px solid #000000;
+#picture img {
+
+	width: 200px;
+	height: 150px;
+	
+}
+#picture .caption {
+	position:absolute;
+	bottom: 0px;
+	left: 0px;
+	background-color:#243743;
+	color: white;
+	font-size:25;
+	padding: 5px;
+	width:auto;
 }
 
 #sidebar {
-	background-color: #81DAF5;
-	color:000000;
-	padding:25px;
-	border:5px solid #000000;
-	width:20%;
+	float:left;
+	padding:5px;
+	border-right:2px solid #FAFAFA;
+	width:120px;
+	min-height: 400px;
+	height:auto;
+	text-align:center;
+}
+
+#sidebar li {
+	text-align:left;
+	padding-bottom: 10px;
 }
 
 #footer {
-	background-color: #81DAF5;
-	color:000000;
-	border: 3px solid #000000;
-	width:100%;
-	height:15%;
+	clear:both;
+    width: 100%;
+    height: 100px;
+    background-image: url(http://awesomewallpaper.files.wordpress.com/2011/09/futuristic_wallpaper_by_aerolk-d4852lv.jpg);
+    background-size: 100% 100%;
+}​
+
+a, a:link {
+	color:#243743;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#FF0000;
 }
