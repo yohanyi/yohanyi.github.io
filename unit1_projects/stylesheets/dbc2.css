@@ -12,11 +12,9 @@ body {
 	border:3px solid #FAFAFA;
 	background-color:#28B78D;
 }
-#header {
-	padding: 5px;
+#header {  
 	text-align:center;
 	border-bottom: 3px solid #FAFAFA;
-	width: auto;
 	height:100px;
 	background-color: #8A949B;
 }
