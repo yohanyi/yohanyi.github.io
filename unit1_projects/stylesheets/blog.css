@@ -5,9 +5,11 @@ body {
 	width:950px;
 }
 
-.main {
-	text-align:center;
+#main {
+	width:100%;
 	background-color:#FFFFFF;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #888888;
 }
 
 
@@ -15,7 +17,7 @@ body {
 	padding-top:30px;
 	text-align:center;
 	height:150px;
-	margin:0;
+
 }
 
 h1 {
@@ -30,25 +32,32 @@ h2 {
 	font-size:40px;
 	border-top:3px solid #CCCCCC;
 }
-#content {
-	width:100%;
-	text-align:left;
+.content {
+	width:auto;
+	height:auto;
 	background-color:#FFFFFF;
+	border-radius:25px;
 }
-
 p{
+	font-size: 20px;
 	margin: 15px 15px 10px 10px;
 	padding: 15px 15px 15px 15px;
 }
 
 li {
+	font-size:20px;
 	text-align:left;
-	padding-bottom: 8px;
+	padding-top: 8px;
 }
 
+img {
+	max-height: 400px;
+	display: block;
+	margin: auto;
+}
 
-a, a:link {
-	color:#01B6AD;
+a:link {
+	color:#000080;
 	text-decoration:none;
 }
 
