@@ -1,0 +1,52 @@
+body {
+	margin-left:auto;
+	margin-right:auto;
+	background-color:#CCCCCC;
+	width:750px;
+}
+
+#main {
+	width:100%;
+	background-color:#FFFFFF;
+	border-radius:25px;
+	box-shadow: 10px 10px 5px #888888;
+}
+
+
+#header {
+	padding-top:30px;
+	text-align:center;
+	height:120px;
+
+}
+
+h1 {
+	font-size: 55px;
+	font-family:"Lato";
+	color:#005B9A;
+}
+
+h2 {
+	text-align:center;
+	padding-top:20px;
+	font-size:40px;
+	border-top:3px solid #CCCCCC;
+	font-family:"Lato";
+}
+.content {
+	width:auto;
+	height:auto;
+	background-color:#FFFFFF;
+	border-radius:25px;
+}
+p{
+	font-size: 20px;
+	margin: 15px 15px 10px 10px;
+	padding: 15px 15px 15px 15px;
+}
+
+img {
+	max-height: 300px;
+	display: block;
+	margin: auto;
+}
