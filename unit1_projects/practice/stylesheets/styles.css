@@ -1,11 +1,9 @@
 /* General Styles */
 body {
   background-color: rgb(241, 241, 241);
-  font-size: 16px;
+  font-size: 1em;
   font-weight: 300;
-  line-height: 1.2em;
   margin: 0px auto;
-  min-width: 960px;
   width: 100%;
   font-family:"Lato", cursive
 }
