@@ -19,7 +19,11 @@ body {
 	height:150px;
 
 }
-
+h5 {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 1.3em;
+}
 h1 {
 	font-size: 55px;
 	font-family:"Lato";
