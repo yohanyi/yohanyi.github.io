@@ -2,10 +2,10 @@ body {
 	margin-left:auto;
 	margin-right:auto;
 	background-color:#CCCCCC;
-	width:950px;
+	width:750px;
 }
 
-#main {
+.main {
 	width:100%;
 	background-color:#FFFFFF;
 	border-radius:25px;
@@ -19,7 +19,11 @@ body {
 	height:150px;
 
 }
-
+h5 {
+	margin-top: 0px;
+	padding-top: 0px;
+	font-size: 1.3em;
+}
 h1 {
 	font-size: 55px;
 	font-family:"Lato";
@@ -38,29 +42,22 @@ h2 {
 	background-color:#FFFFFF;
 	border-radius:25px;
 }
-p{
+p {
 	font-size: 20px;
 	margin: 15px 15px 10px 10px;
-	padding: 15px 15px 15px 15px;
+	padding: 5px 15px 20px 20px;
+	line-height: 1.5em;
 }
 
 li {
-	font-size:20px;
-	text-align:left;
-	padding-top: 8px;
+	font-size: 20px;
+	margin: 15px 15px 10px 10px;
+	padding: 15px 15px 20px 20px;
+	line-height: 1.5em;
 }
 
 img {
-	max-height: 400px;
-	display: block;
-	margin: auto;
-}
-
-a:link {
-	color:#000080;
-	text-decoration:none;
-}
-
-a:visited{
-	color:#FF0000;
+	display:block;
+	margin:0 auto;
+	max-width:40%;
 }
