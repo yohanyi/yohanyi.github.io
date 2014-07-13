@@ -28,11 +28,12 @@ body, h1, h2, h3, h4, h5, h6 {
 .intro-message {
   position: relative;
   padding-top: 15%;
+  padding-bottom:5%;
 }
 
 .intro-message > h1 {
   margin: 0;
-  font-size: 7em;
+  font-size: 7.8em;
   text-shadow: 4px 4px 1px rgba(0, 0, 0, 0.6);
   font-family: 'Pacifico', cursive;
   font-weight: normal;
@@ -82,11 +83,11 @@ body, h1, h2, h3, h4, h5, h6 {
 }
 
 .content-section-a {
-  background-color: #f8f8f8;
-  padding: 50px 0;
-   background: url("../img/header.jpg") no-repeat center center;
+  padding: 50px;
+  background: url("../img/header.jpg") no-repeat center center;
   background-size: cover;
   text-align: center;
+  height:auto;
 }
 
 .content-section-b {
@@ -170,11 +171,17 @@ i.fa {
     font-size: 7em;
     color:#01A9DB;
     padding: 5px 10px;
-    text-shadow:1px 1px 0px white;
+    text-shadow: -1.5px 0 white, 0 1.5px white, 1.5px 0 white, 0 -1.5px white;
 }
 
 
 .title-seperator {
   bottom-border:1px solid white;
   width: 200px;
+}
+
+.blog-list a{
+  text-align:left;
+  font-color:white;
+
 }
