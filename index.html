@@ -1,136 +1,44 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Yohan Yi's personal webiste">
-  <meta name="author" content="Yohan Yi">
-
-  <title>Personal Website for Yohan Yi</title>
-
-  <!-- Bootstrap and fontawesome -->
-  <link href="css/bootstrap.css" rel="stylesheet">
-  
+  <title>Yohan Yi Personal Website</title>
+  <meta name="author" content="Dave Gamache">
+  <meta name="description" content="Personal site of Yohan Yi">
+  <meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui">
+  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
-  <!-- Google fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
-  <!-- Add custom CSS here -->
-  <link href="css/styles.css" rel="stylesheet">
-
+  <link rel="stylesheet" href="css/main.css">
 </head>
-
 <body>
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="navbar-brand" href="http://startbootstrap.com">Yohan Yi</a>
-      </div>
-
-
-      <div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="blog_index.html">Blogs</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav> 
-
-  <div class="intro-header">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="intro-message">
-            <h1>Yohan Yi</h1>
-            <h3>Aspiring web developer and DBC student</h3>
-            <hr class="intro-divider">
-
-            <ul class="list-inline intro-social-buttons">
-              <li><a href="https://facebook.com/yohan.johan.john.yi"><i id="fbook" class="fa fa-facebook-square"></i></a>
-              </li>
-              <li><a href="https://github.com/yohanyi"><i id="git" class="fa fa-github-square"></i></a>
-              </li>
-              <li><a href="www.linkedin.com/in/yohanyi/"><i id="lin"class="fa fa-linkedin-square"></i></a>
-              </li>
-              <li><a href="www.linkedin.com/in/yohanyi/"><i class="fa fa-google-plus-square"></i></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
+  <div class="wrapper">
+    <nav>
+      <ul class="nav-menu">
+        <li><a href="home.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+      </ul>
+    </nav>
+    <div class="wrapper-inner">
+      <h1 class="name">Web Developer</h1>
+      <h2 class="byline">Based in San Francisco, From Los Angeles</h2>
+      <ul class="social-links">
+        <li>
+          <a href="http://www.twitter.com/dhg"><i id="fbook" class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="http://www.github.com/dhg"><i id="fbook" class="fa fa-github-alt fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/yohanyi/"><i id="fbook" class="fa fa-linkedin fa-2x"></i></a>
+        </li>
+        <li>
+          <a href="www.linkedin.com/in/yohanyi/"><i id="fbook" class="fa fa-angellist fa-2x"></i></a>
+        </li>
+<!--         <li class="email-link-outer">
+          <a class="email-link" target="_blank" href="mailto:yohanyista@gmail.com">yohanyista@gmail.com</a>
+        </li> -->
+      </ul>
     </div>
   </div>
-
-
-
-  <div class="content-section-a">
-    <div class="container-fluid">
-      <div class="row">
-
-       <div class="col-lg-4  col-sm-4">
-          <div class="thumbnail">
-          <img src="img/batman.jpg" alt="...">
-          <div class="caption">
-            <h3>This is Me bruh</h3>
-            <p>I look way better in person.</p>
-            <p><a href="#" class="btn btn-primary" role="button">HOT</a> <a href="#" class="btn btn-default" role="button">NOT</a></p>
-          </div>
-          </div>
-        </div>
-        <div class="col-sm-8">
-          <!-- <hr class="section-heading-spacer"> -->
-
-          <div class="clearfix"></div>
-          <h2 class="section-heading">About Me</h2>
-          <p class="lead">Hey everyone, my name is Yohan Yi, and I want you to welcome to my personal website. I'm 25 years old and currently reside in Los Angeles, CA. I love playing sports and watching sports also. My favorite sports teams are the Los Angeles Lakers and the Los Angeles Dodgers. I'm an aspiring web developer and plan to learn all about it during my journey in DBC. I'm super excited and I welcome all feedback or advice on becoming a better web developer.</p>
-        </div>
-           <!--    <div class="col-lg-4  col-sm-4">
-                  <img class="img-responsive img-circle" src="../img/batman.jpg" alt="">
-                -->
-       
-
-      </div>
-    </div>
-  </div>
-  <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-lg-12">
-          <ul class="list-inline">
-            <li><a href="#home">Home</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li><a href="#about">About</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li><a href="#services">Services</a>
-            </li>
-            <li class="footer-menu-divider">&sdot;</li>
-            <li><a href="#contact">Contact</a>
-            </li>
-          </ul>
-          <p class="copyright text-muted small">Copyright &copy; Yohan Yi 2013. All Rights Reserved</p>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-          <!-- JavaScript -->
-
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
+</body>
 </html>
