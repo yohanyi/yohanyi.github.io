@@ -1,0 +1,26 @@
+.row {
+  text-align: center;
+  width: 80%;
+  border: 2px solid white;
+  height: 40%;
+  margin: 0 auto;
+}
+
+.project-image {
+  width:40%;
+  float:left;
+  border:2px solid blue;
+  height:100%;
+}
+
+.project-description {
+  width: auto;
+  height: auto;
+  float:right;
+  border: 2px solid yellow;
+}
+
+.project-image img {
+  max-width: 100%;
+  position: relative;
+}
